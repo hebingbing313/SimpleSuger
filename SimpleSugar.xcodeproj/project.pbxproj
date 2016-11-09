@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7CE93451DD300DB009875EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE93441DD300DB009875EF /* AppDelegate.swift */; };
+		D7CE93471DD300DB009875EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE93461DD300DB009875EF /* ViewController.swift */; };
+		D7CE934A1DD300DB009875EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE93481DD300DB009875EF /* Main.storyboard */; };
+		D7CE934C1DD300DB009875EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CE934B1DD300DB009875EF /* Assets.xcassets */; };
+		D7CE934F1DD300DB009875EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE934D1DD300DB009875EF /* LaunchScreen.storyboard */; };
+		D7CE935A1DD300DB009875EF /* SimpleSugarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE93591DD300DB009875EF /* SimpleSugarTests.swift */; };
+		D7CE93651DD300DB009875EF /* SimpleSugarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE93641DD300DB009875EF /* SimpleSugarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7CE93561DD300DB009875EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7CE93391DD300DB009875EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7CE93401DD300DB009875EF;
+			remoteInfo = SimpleSugar;
+		};
+		D7CE93611DD300DB009875EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7CE93391DD300DB009875EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7CE93401DD300DB009875EF;
+			remoteInfo = SimpleSugar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7CE93411DD300DB009875EF /* SimpleSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CE93441DD300DB009875EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7CE93461DD300DB009875EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7CE93491DD300DB009875EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7CE934B1DD300DB009875EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7CE934E1DD300DB009875EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7CE93501DD300DB009875EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7CE93551DD300DB009875EF /* SimpleSugarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSugarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CE93591DD300DB009875EF /* SimpleSugarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSugarTests.swift; sourceTree = "<group>"; };
+		D7CE935B1DD300DB009875EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7CE93601DD300DB009875EF /* SimpleSugarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSugarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CE93641DD300DB009875EF /* SimpleSugarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSugarUITests.swift; sourceTree = "<group>"; };
+		D7CE93661DD300DB009875EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7CE933E1DD300DB009875EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CE93521DD300DB009875EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CE935D1DD300DB009875EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7CE93381DD300DB009875EF = {
+			isa = PBXGroup;
+			children = (
+				D7CE93431DD300DB009875EF /* SimpleSugar */,
+				D7CE93581DD300DB009875EF /* SimpleSugarTests */,
+				D7CE93631DD300DB009875EF /* SimpleSugarUITests */,
+				D7CE93421DD300DB009875EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7CE93421DD300DB009875EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE93411DD300DB009875EF /* SimpleSugar.app */,
+				D7CE93551DD300DB009875EF /* SimpleSugarTests.xctest */,
+				D7CE93601DD300DB009875EF /* SimpleSugarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7CE93431DD300DB009875EF /* SimpleSugar */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE93441DD300DB009875EF /* AppDelegate.swift */,
+				D7CE93461DD300DB009875EF /* ViewController.swift */,
+				D7CE93481DD300DB009875EF /* Main.storyboard */,
+				D7CE934B1DD300DB009875EF /* Assets.xcassets */,
+				D7CE934D1DD300DB009875EF /* LaunchScreen.storyboard */,
+				D7CE93501DD300DB009875EF /* Info.plist */,
+			);
+			path = SimpleSugar;
+			sourceTree = "<group>";
+		};
+		D7CE93581DD300DB009875EF /* SimpleSugarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE93591DD300DB009875EF /* SimpleSugarTests.swift */,
+				D7CE935B1DD300DB009875EF /* Info.plist */,
+			);
+			path = SimpleSugarTests;
+			sourceTree = "<group>";
+		};
+		D7CE93631DD300DB009875EF /* SimpleSugarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE93641DD300DB009875EF /* SimpleSugarUITests.swift */,
+				D7CE93661DD300DB009875EF /* Info.plist */,
+			);
+			path = SimpleSugarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7CE93401DD300DB009875EF /* SimpleSugar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7CE93691DD300DB009875EF /* Build configuration list for PBXNativeTarget "SimpleSugar" */;
+			buildPhases = (
+				D7CE933D1DD300DB009875EF /* Sources */,
+				D7CE933E1DD300DB009875EF /* Frameworks */,
+				D7CE933F1DD300DB009875EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleSugar;
+			productName = SimpleSugar;
+			productReference = D7CE93411DD300DB009875EF /* SimpleSugar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7CE93541DD300DB009875EF /* SimpleSugarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7CE936C1DD300DB009875EF /* Build configuration list for PBXNativeTarget "SimpleSugarTests" */;
+			buildPhases = (
+				D7CE93511DD300DB009875EF /* Sources */,
+				D7CE93521DD300DB009875EF /* Frameworks */,
+				D7CE93531DD300DB009875EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7CE93571DD300DB009875EF /* PBXTargetDependency */,
+			);
+			name = SimpleSugarTests;
+			productName = SimpleSugarTests;
+			productReference = D7CE93551DD300DB009875EF /* SimpleSugarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7CE935F1DD300DB009875EF /* SimpleSugarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7CE936F1DD300DB009875EF /* Build configuration list for PBXNativeTarget "SimpleSugarUITests" */;
+			buildPhases = (
+				D7CE935C1DD300DB009875EF /* Sources */,
+				D7CE935D1DD300DB009875EF /* Frameworks */,
+				D7CE935E1DD300DB009875EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7CE93621DD300DB009875EF /* PBXTargetDependency */,
+			);
+			name = SimpleSugarUITests;
+			productName = SimpleSugarUITests;
+			productReference = D7CE93601DD300DB009875EF /* SimpleSugarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7CE93391DD300DB009875EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 2016;
+				TargetAttributes = {
+					D7CE93401DD300DB009875EF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D7CE93541DD300DB009875EF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D7CE93401DD300DB009875EF;
+					};
+					D7CE935F1DD300DB009875EF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D7CE93401DD300DB009875EF;
+					};
+				};
+			};
+			buildConfigurationList = D7CE933C1DD300DB009875EF /* Build configuration list for PBXProject "SimpleSugar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7CE93381DD300DB009875EF;
+			productRefGroup = D7CE93421DD300DB009875EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7CE93401DD300DB009875EF /* SimpleSugar */,
+				D7CE93541DD300DB009875EF /* SimpleSugarTests */,
+				D7CE935F1DD300DB009875EF /* SimpleSugarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7CE933F1DD300DB009875EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CE934F1DD300DB009875EF /* LaunchScreen.storyboard in Resources */,
+				D7CE934C1DD300DB009875EF /* Assets.xcassets in Resources */,
+				D7CE934A1DD300DB009875EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CE93531DD300DB009875EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CE935E1DD300DB009875EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7CE933D1DD300DB009875EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CE93471DD300DB009875EF /* ViewController.swift in Sources */,
+				D7CE93451DD300DB009875EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CE93511DD300DB009875EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CE935A1DD300DB009875EF /* SimpleSugarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CE935C1DD300DB009875EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CE93651DD300DB009875EF /* SimpleSugarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7CE93571DD300DB009875EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7CE93401DD300DB009875EF /* SimpleSugar */;
+			targetProxy = D7CE93561DD300DB009875EF /* PBXContainerItemProxy */;
+		};
+		D7CE93621DD300DB009875EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7CE93401DD300DB009875EF /* SimpleSugar */;
+			targetProxy = D7CE93611DD300DB009875EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7CE93481DD300DB009875EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7CE93491DD300DB009875EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7CE934D1DD300DB009875EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7CE934E1DD300DB009875EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7CE93671DD300DB009875EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7CE93681DD300DB009875EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7CE936A1DD300DB009875EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleSugar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hebing.SimpleSugar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7CE936B1DD300DB009875EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleSugar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hebing.SimpleSugar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7CE936D1DD300DB009875EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleSugarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hebing.SimpleSugarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleSugar.app/SimpleSugar";
+			};
+			name = Debug;
+		};
+		D7CE936E1DD300DB009875EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleSugarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hebing.SimpleSugarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleSugar.app/SimpleSugar";
+			};
+			name = Release;
+		};
+		D7CE93701DD300DB009875EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleSugarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hebing.SimpleSugarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleSugar;
+			};
+			name = Debug;
+		};
+		D7CE93711DD300DB009875EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleSugarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hebing.SimpleSugarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleSugar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7CE933C1DD300DB009875EF /* Build configuration list for PBXProject "SimpleSugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7CE93671DD300DB009875EF /* Debug */,
+				D7CE93681DD300DB009875EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7CE93691DD300DB009875EF /* Build configuration list for PBXNativeTarget "SimpleSugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7CE936A1DD300DB009875EF /* Debug */,
+				D7CE936B1DD300DB009875EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7CE936C1DD300DB009875EF /* Build configuration list for PBXNativeTarget "SimpleSugarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7CE936D1DD300DB009875EF /* Debug */,
+				D7CE936E1DD300DB009875EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7CE936F1DD300DB009875EF /* Build configuration list for PBXNativeTarget "SimpleSugarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7CE93701DD300DB009875EF /* Debug */,
+				D7CE93711DD300DB009875EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7CE93391DD300DB009875EF /* Project object */;
+}
