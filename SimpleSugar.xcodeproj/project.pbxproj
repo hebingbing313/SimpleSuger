@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B9AC85D517B971691AC3E3C /* Pods_SimpleSugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225D286514288391E29C1D7B /* Pods_SimpleSugar.framework */; };
+		A2BF2CDB33C55C37DCC96C92 /* Pods_SimpleSugarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3270A41652C905B20B717C /* Pods_SimpleSugarTests.framework */; };
 		D7CE93451DD300DB009875EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE93441DD300DB009875EF /* AppDelegate.swift */; };
 		D7CE93471DD300DB009875EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE93461DD300DB009875EF /* ViewController.swift */; };
 		D7CE934A1DD300DB009875EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE93481DD300DB009875EF /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		D7CE934F1DD300DB009875EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE934D1DD300DB009875EF /* LaunchScreen.storyboard */; };
 		D7CE935A1DD300DB009875EF /* SimpleSugarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE93591DD300DB009875EF /* SimpleSugarTests.swift */; };
 		D7CE93651DD300DB009875EF /* SimpleSugarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CE93641DD300DB009875EF /* SimpleSugarUITests.swift */; };
+		F90A2A34802036A3B4481282 /* Pods_SimpleSugarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAED71069DE1E943A21354D /* Pods_SimpleSugarUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225D286514288391E29C1D7B /* Pods_SimpleSugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleSugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		588AE1D865DFD186BA3D6496 /* Pods-SimpleSugar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleSugar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleSugar/Pods-SimpleSugar.release.xcconfig"; sourceTree = "<group>"; };
+		65C23185376FB2B6F269B3A2 /* Pods-SimpleSugarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleSugarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleSugarTests/Pods-SimpleSugarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E3270A41652C905B20B717C /* Pods_SimpleSugarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleSugarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAED71069DE1E943A21354D /* Pods_SimpleSugarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleSugarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3519F3F8CB75DF98D24DF0 /* Pods-SimpleSugar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleSugar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleSugar/Pods-SimpleSugar.debug.xcconfig"; sourceTree = "<group>"; };
+		ACC051ADD954AF845B133E2F /* Pods-SimpleSugarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleSugarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleSugarTests/Pods-SimpleSugarTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7DCF3C78D106E9E6E5D06BF /* Pods-SimpleSugarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleSugarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleSugarUITests/Pods-SimpleSugarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7CE93411DD300DB009875EF /* SimpleSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CE93441DD300DB009875EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7CE93461DD300DB009875EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		D7CE93601DD300DB009875EF /* SimpleSugarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSugarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CE93641DD300DB009875EF /* SimpleSugarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSugarUITests.swift; sourceTree = "<group>"; };
 		D7CE93661DD300DB009875EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08200EF415ED598471306ED /* Pods-SimpleSugarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleSugarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleSugarUITests/Pods-SimpleSugarUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9AC85D517B971691AC3E3C /* Pods_SimpleSugar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2BF2CDB33C55C37DCC96C92 /* Pods_SimpleSugarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90A2A34802036A3B4481282 /* Pods_SimpleSugarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7762EFB8695BEAC182CFA11D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				225D286514288391E29C1D7B /* Pods_SimpleSugar.framework */,
+				6E3270A41652C905B20B717C /* Pods_SimpleSugarTests.framework */,
+				8CAED71069DE1E943A21354D /* Pods_SimpleSugarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A25A27CC95A1BA43CD6B56C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D3519F3F8CB75DF98D24DF0 /* Pods-SimpleSugar.debug.xcconfig */,
+				588AE1D865DFD186BA3D6496 /* Pods-SimpleSugar.release.xcconfig */,
+				65C23185376FB2B6F269B3A2 /* Pods-SimpleSugarTests.debug.xcconfig */,
+				ACC051ADD954AF845B133E2F /* Pods-SimpleSugarTests.release.xcconfig */,
+				B7DCF3C78D106E9E6E5D06BF /* Pods-SimpleSugarUITests.debug.xcconfig */,
+				F08200EF415ED598471306ED /* Pods-SimpleSugarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D7CE93381DD300DB009875EF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				D7CE93581DD300DB009875EF /* SimpleSugarTests */,
 				D7CE93631DD300DB009875EF /* SimpleSugarUITests */,
 				D7CE93421DD300DB009875EF /* Products */,
+				A25A27CC95A1BA43CD6B56C7 /* Pods */,
+				7762EFB8695BEAC182CFA11D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7CE93691DD300DB009875EF /* Build configuration list for PBXNativeTarget "SimpleSugar" */;
 			buildPhases = (
+				B6F3B1A6AB40841E2879E06E /* [CP] Check Pods Manifest.lock */,
 				D7CE933D1DD300DB009875EF /* Sources */,
 				D7CE933E1DD300DB009875EF /* Frameworks */,
 				D7CE933F1DD300DB009875EF /* Resources */,
+				C64255CE745252970EB4BD1D /* [CP] Embed Pods Frameworks */,
+				DC045828A17EE2100C7793CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7CE936C1DD300DB009875EF /* Build configuration list for PBXNativeTarget "SimpleSugarTests" */;
 			buildPhases = (
+				9447BC8CB62E11817DD134AC /* [CP] Check Pods Manifest.lock */,
 				D7CE93511DD300DB009875EF /* Sources */,
 				D7CE93521DD300DB009875EF /* Frameworks */,
 				D7CE93531DD300DB009875EF /* Resources */,
+				D2689469F64551519A3ED8FB /* [CP] Embed Pods Frameworks */,
+				7CF91167E1A8BA2AA7A0E8CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7CE936F1DD300DB009875EF /* Build configuration list for PBXNativeTarget "SimpleSugarUITests" */;
 			buildPhases = (
+				304496FF9D0E9DFFBDD811F9 /* [CP] Check Pods Manifest.lock */,
 				D7CE935C1DD300DB009875EF /* Sources */,
 				D7CE935D1DD300DB009875EF /* Frameworks */,
 				D7CE935E1DD300DB009875EF /* Resources */,
+				8DCF472E1262A38EBDB280AF /* [CP] Embed Pods Frameworks */,
+				8345F5D66FF1EFD5D5509A3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +299,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304496FF9D0E9DFFBDD811F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CF91167E1A8BA2AA7A0E8CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleSugarTests/Pods-SimpleSugarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8345F5D66FF1EFD5D5509A3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleSugarUITests/Pods-SimpleSugarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DCF472E1262A38EBDB280AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleSugarUITests/Pods-SimpleSugarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9447BC8CB62E11817DD134AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6F3B1A6AB40841E2879E06E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C64255CE745252970EB4BD1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleSugar/Pods-SimpleSugar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2689469F64551519A3ED8FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleSugarTests/Pods-SimpleSugarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC045828A17EE2100C7793CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleSugar/Pods-SimpleSugar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7CE933D1DD300DB009875EF /* Sources */ = {
@@ -399,6 +586,7 @@
 		};
 		D7CE936A1DD300DB009875EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3519F3F8CB75DF98D24DF0 /* Pods-SimpleSugar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleSugar/Info.plist;
@@ -410,6 +598,7 @@
 		};
 		D7CE936B1DD300DB009875EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588AE1D865DFD186BA3D6496 /* Pods-SimpleSugar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleSugar/Info.plist;
@@ -421,6 +610,7 @@
 		};
 		D7CE936D1DD300DB009875EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C23185376FB2B6F269B3A2 /* Pods-SimpleSugarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SimpleSugarTests/Info.plist;
@@ -433,6 +623,7 @@
 		};
 		D7CE936E1DD300DB009875EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC051ADD954AF845B133E2F /* Pods-SimpleSugarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SimpleSugarTests/Info.plist;
@@ -445,6 +636,7 @@
 		};
 		D7CE93701DD300DB009875EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DCF3C78D106E9E6E5D06BF /* Pods-SimpleSugarUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SimpleSugarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +648,7 @@
 		};
 		D7CE93711DD300DB009875EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08200EF415ED598471306ED /* Pods-SimpleSugarUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SimpleSugarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +677,7 @@
 				D7CE936B1DD300DB009875EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7CE936C1DD300DB009875EF /* Build configuration list for PBXNativeTarget "SimpleSugarTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +686,7 @@
 				D7CE936E1DD300DB009875EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7CE936F1DD300DB009875EF /* Build configuration list for PBXNativeTarget "SimpleSugarUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +695,7 @@
 				D7CE93711DD300DB009875EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
